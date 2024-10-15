@@ -1,5 +1,20 @@
-public class App {
+/*public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
     }
+}*/
+
+public class App{
+
+    public static void main(String[] args)
+    {
+        Car davesCar = new Car("Ford Galaxy", 40, 33.6);
+
+        String model = davesCar.getModel();
+
+        double distance = davesCar.estDistance();
+
+        System.out.println(model + " can travel " + distance + " miles");
+    }
 }
+
